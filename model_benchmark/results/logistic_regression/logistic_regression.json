@@ -1,0 +1,122 @@
+{
+  "model": "logistic_regression",
+  "owner": "Aaron Arnold",
+  "kind": "supervised",
+  "notes": "StandardScaler + LogisticRegression(class_weight='balanced'), C tuned by GroupKFold",
+  "evaluated": "2026-11-20T22:11:10",
+  "features": [
+    "rms",
+    "peak",
+    "std",
+    "kurtosis",
+    "crest_factor",
+    "band_5_25hz",
+    "band_25_75hz",
+    "band_75_200hz",
+    "band_200_500hz"
+  ],
+  "shared_split": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_alarm_rate": 0.0,
+    "roc_auc": 1.0,
+    "confusion": [
+      [
+        59,
+        0
+      ],
+      [
+        0,
+        177
+      ]
+    ],
+    "heldout_recall": 1.0,
+    "n_test_windows": 236,
+    "n_heldout_windows": 295
+  },
+  "chosen_params": {
+    "logisticregression__C": 10.0
+  },
+  "five_rounds": {
+    "accuracy": {
+      "mean": 0.9898734177215189,
+      "std": 0.02264372635442827
+    },
+    "precision": {
+      "mean": 0.9988023952095808,
+      "std": 0.0026779257215566554
+    },
+    "recall": {
+      "mean": 0.9875706214689266,
+      "std": 0.0277929353135567
+    },
+    "f1": {
+      "mean": 0.9930232558139535,
+      "std": 0.015600474261626418
+    },
+    "false_alarm_rate": {
+      "mean": 0.003333333333333333,
+      "std": 0.007453559924999298
+    },
+    "roc_auc": {
+      "mean": 0.9966760828625235,
+      "std": 0.007432504670973883
+    },
+    "heldout_recall": {
+      "mean": 1.0,
+      "std": 0.0
+    }
+  },
+  "multiclass": {
+    "macro_f1": 0.9830313488639632,
+    "accuracy": 0.9830508474576272,
+    "labels": [
+      "normal",
+      "imbalance",
+      "loose_mount",
+      "blocked_airflow"
+    ],
+    "confusion": [
+      [
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        55
+      ]
+    ],
+    "heldout_classified_as": {
+      "normal": 0.0,
+      "imbalance": 0.0,
+      "loose_mount": 0.8305084745762712,
+      "blocked_airflow": 0.1694915254237288
+    }
+  },
+  "device": {
+    "param_bytes": 112,
+    "inference_us": 18.1,
+    "feature_ms": 42.8,
+    "flash_kb": 8.7,
+    "ram_kb": 22.0,
+    "esp32_agreement": 1.0
+  }
+}

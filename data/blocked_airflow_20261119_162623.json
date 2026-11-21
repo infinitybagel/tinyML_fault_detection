@@ -1,0 +1,17 @@
+{
+  "label": "blocked_airflow",
+  "started": "2026-11-19T16:26:23",
+  "samples": 59983,
+  "duration_s": 60.0,
+  "sample_rate_hz": 999.6,
+  "gaps_over_1_5ms": 11,
+  "bad_lines": 11,
+  "mean_fan_rpm": 1682,
+  "min_fan_rpm": 1650,
+  "max_fan_rpm": 1740,
+  "accel_range": "+/-8 g (4096 counts per g)",
+  "counts_per_g": 4096,
+  "clipped_values": 0,
+  "fan_duty": "204/255",
+  "notes": "recording 2 - bottom half of fan blocked"
+}

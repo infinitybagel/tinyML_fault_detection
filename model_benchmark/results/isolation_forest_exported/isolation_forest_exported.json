@@ -1,0 +1,48 @@
+{
+  "model": "isolation_forest_exported",
+  "owner": "Angelina Guasti",
+  "kind": "unsupervised",
+  "notes": "Exported 20-tree isolation forest (max_samples 64), raw features, her threshold 0.0304",
+  "evaluated": "2026-11-20T18:17:34",
+  "features": [
+    "rms",
+    "peak",
+    "std",
+    "kurtosis",
+    "crest_factor",
+    "band_5_25hz",
+    "band_25_75hz",
+    "band_75_200hz",
+    "band_200_500hz"
+  ],
+  "shared_split": {
+    "accuracy": 0.9745762711864406,
+    "precision": 0.9672131147540983,
+    "recall": 1.0,
+    "f1": 0.9833333333333333,
+    "false_alarm_rate": 0.1016949152542373,
+    "roc_auc": 0.9997127262280954,
+    "confusion": [
+      [
+        53,
+        6
+      ],
+      [
+        0,
+        177
+      ]
+    ],
+    "heldout_recall": 1.0,
+    "n_test_windows": 236,
+    "n_heldout_windows": 295
+  },
+  "device": {
+    "param_bytes": 13256,
+    "inference_us": 234.1,
+    "feature_ms": 36.6,
+    "flash_kb": 26.6,
+    "ram_kb": 22.1,
+    "esp32_agreement": 1.0
+  },
+  "device_source": "measured on the ESP32 on 2026-11-20 (esp32_test.py verify, 531 recorded windows; arduino-cli compile sizes)"
+}

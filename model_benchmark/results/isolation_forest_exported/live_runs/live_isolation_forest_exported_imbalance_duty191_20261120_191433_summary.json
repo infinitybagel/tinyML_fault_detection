@@ -1,0 +1,11 @@
+{
+  "name": "isolation_forest_exported_imbalance_duty191",
+  "expect": "fault",
+  "notes": "imbalance (twist tie on blade); fan duty 191/255",
+  "started": "2026-11-20T19:14:33",
+  "windows": 39,
+  "percent_flagged_fault": 100.0,
+  "percent_correct": 100.0,
+  "alerts": 1,
+  "inference_us_mean": 197.62
+}

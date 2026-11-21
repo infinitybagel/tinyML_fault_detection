@@ -1,0 +1,17 @@
+{
+  "label": "normal",
+  "started": "2026-11-19T15:31:20",
+  "samples": 59974,
+  "duration_s": 60.0,
+  "sample_rate_hz": 999.6,
+  "gaps_over_1_5ms": 13,
+  "bad_lines": 12,
+  "mean_fan_rpm": 1684,
+  "min_fan_rpm": 1650,
+  "max_fan_rpm": 1770,
+  "accel_range": "+/-8 g (4096 counts per g)",
+  "counts_per_g": 4096,
+  "clipped_values": 0,
+  "fan_duty": "204/255",
+  "notes": "recording 2"
+}

@@ -1,0 +1,10 @@
+{
+  "model": "linear_svm",
+  "param_bytes": 112,
+  "inference_us": 5.8,
+  "feature_ms": 42.8,
+  "flash_kb": 8.1,
+  "ram_kb": 22.1,
+  "esp32_agreement": 1.0,
+  "source": "measured on the ESP32 on 2026-11-20 (esp32_test.py verify, 531 recorded windows; arduino-cli compile sizes)"
+}

@@ -1,0 +1,10 @@
+{
+  "model": "isolation_forest_exported",
+  "param_bytes": 13256,
+  "inference_us": 234.1,
+  "feature_ms": 36.6,
+  "flash_kb": 26.6,
+  "ram_kb": 22.1,
+  "esp32_agreement": 1.0,
+  "source": "measured on the ESP32 on 2026-11-20 (esp32_test.py verify, 531 recorded windows; arduino-cli compile sizes)"
+}

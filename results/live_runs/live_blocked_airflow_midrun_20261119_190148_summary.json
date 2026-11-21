@@ -1,0 +1,18 @@
+{
+  "condition": "blocked_airflow_midrun",
+  "expect": null,
+  "notes": "card placed flat at ~10 s, not touching blades",
+  "started": "2026-11-19T19:01:48",
+  "seconds": 40.0,
+  "windows": 39,
+  "percent_flagged_fault": 71.79,
+  "percent_correct": null,
+  "alerts": 1,
+  "mean_rpm": 1672.0,
+  "feature_ms_mean": 42.817,
+  "inference_us_mean": 17.97,
+  "inference_us_max": 27,
+  "median_score_live": 266.98,
+  "median_score_recorded_normal": -5.926,
+  "model_header": "fault_detector\\logreg_model.h"
+}

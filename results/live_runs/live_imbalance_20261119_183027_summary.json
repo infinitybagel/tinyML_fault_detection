@@ -1,0 +1,18 @@
+{
+  "condition": "imbalance",
+  "expect": "fault",
+  "notes": "twist tie on fan blade",
+  "started": "2026-11-19T18:30:27",
+  "seconds": 30.0,
+  "windows": 29,
+  "percent_flagged_fault": 86.21,
+  "percent_correct": 86.21,
+  "alerts": 1,
+  "mean_rpm": 1674.0,
+  "feature_ms_mean": 42.817,
+  "inference_us_mean": 18.41,
+  "inference_us_max": 24,
+  "median_score_live": 1.267,
+  "median_score_recorded_normal": -5.926,
+  "model_header": "fault_detector\\logreg_model.h"
+}

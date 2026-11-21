@@ -1,0 +1,18 @@
+{
+  "condition": "loose_mount_midrun",
+  "expect": null,
+  "notes": "bottom left tape removed at ~10 s",
+  "started": "2026-11-19T18:58:35",
+  "seconds": 40.0,
+  "windows": 39,
+  "percent_flagged_fault": 58.97,
+  "percent_correct": null,
+  "alerts": 1,
+  "mean_rpm": 1708.3,
+  "feature_ms_mean": 42.817,
+  "inference_us_mean": 18.15,
+  "inference_us_max": 28,
+  "median_score_live": 13.709,
+  "median_score_recorded_normal": -5.926,
+  "model_header": "fault_detector\\logreg_model.h"
+}

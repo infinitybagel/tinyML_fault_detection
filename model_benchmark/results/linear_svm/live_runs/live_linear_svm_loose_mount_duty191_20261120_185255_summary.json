@@ -1,0 +1,11 @@
+{
+  "name": "linear_svm_loose_mount_duty191",
+  "expect": "fault",
+  "notes": "loose mount (corner untaped); fan duty 191/255",
+  "started": "2026-11-20T18:52:55",
+  "windows": 39,
+  "percent_flagged_fault": 0.0,
+  "percent_correct": 0.0,
+  "alerts": 0,
+  "inference_us_mean": 8.26
+}

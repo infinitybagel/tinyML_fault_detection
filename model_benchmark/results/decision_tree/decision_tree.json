@@ -1,0 +1,128 @@
+{
+  "model": "decision_tree",
+  "owner": "Devon Biscardi",
+  "kind": "supervised",
+  "notes": "TODO: describe your final settings",
+  "evaluated": "2026-11-20T18:38:23",
+  "features": [
+    "rms",
+    "peak",
+    "std",
+    "kurtosis",
+    "crest_factor",
+    "band_5_25hz",
+    "band_25_75hz",
+    "band_75_200hz",
+    "band_200_500hz"
+  ],
+  "shared_split": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_alarm_rate": 0.0,
+    "roc_auc": 1.0,
+    "confusion": [
+      [
+        59,
+        0
+      ],
+      [
+        0,
+        177
+      ]
+    ],
+    "heldout_recall": 1.0,
+    "n_test_windows": 236,
+    "n_heldout_windows": 295
+  },
+  "chosen_params": {
+    "ccp_alpha": 0.0,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_leaf_nodes": 8,
+    "min_samples_leaf": 5,
+    "min_samples_split": 2
+  },
+  "five_rounds": {
+    "accuracy": {
+      "mean": 0.9890259600944002,
+      "std": 0.022245778068920835
+    },
+    "precision": {
+      "mean": 0.9976787997039629,
+      "std": 0.003181125912526176
+    },
+    "recall": {
+      "mean": 0.9875706214689266,
+      "std": 0.0277929353135567
+    },
+    "f1": {
+      "mean": 0.9924598755322634,
+      "std": 0.01533412480823791
+    },
+    "false_alarm_rate": {
+      "mean": 0.00672316384180791,
+      "std": 0.00920661296926612
+    },
+    "roc_auc": {
+      "mean": 0.9904237288135593,
+      "std": 0.017074746535796877
+    },
+    "heldout_recall": {
+      "mean": 1.0,
+      "std": 0.0
+    }
+  },
+  "multiclass": {
+    "macro_f1": 0.9872872225813403,
+    "accuracy": 0.9872881355932204,
+    "labels": [
+      "normal",
+      "imbalance",
+      "loose_mount",
+      "blocked_airflow"
+    ],
+    "confusion": [
+      [
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        58,
+        1
+      ],
+      [
+        0,
+        0,
+        2,
+        57
+      ]
+    ],
+    "heldout_classified_as": {
+      "normal": 0.0,
+      "imbalance": 0.0,
+      "loose_mount": 0.711864406779661,
+      "blocked_airflow": 0.288135593220339
+    }
+  },
+  "device": {
+    "param_bytes": 43,
+    "inference_us": 1.2,
+    "feature_ms": 42.8,
+    "flash_kb": 8.0,
+    "ram_kb": 22.1,
+    "esp32_agreement": 1.0
+  },
+  "device_source": "measured on the ESP32 on 2026-11-20 (esp32_test.py verify, 531 recorded windows; arduino-cli compile sizes); C export by models/export_decision_tree.py"
+}

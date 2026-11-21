@@ -1,0 +1,11 @@
+{
+  "name": "linear_svm_imbalance_duty191",
+  "expect": "fault",
+  "notes": "imbalance (twist tie on blade); fan duty 191/255",
+  "started": "2026-11-20T19:15:34",
+  "windows": 39,
+  "percent_flagged_fault": 0.0,
+  "percent_correct": 0.0,
+  "alerts": 0,
+  "inference_us_mean": 8.28
+}

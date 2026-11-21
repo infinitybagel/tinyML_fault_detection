@@ -1,0 +1,5 @@
+model,owner,kind,precision,recall,f1,false_alarm_rate,roc_auc,heldout_recall,f1_5round_mean,f1_5round_std,multiclass_macro_f1,param_bytes,inference_us,flash_kb,ram_kb,esp32_agreement
+Logistic regression,Aaron Arnold,supervised,1.0,1.0,1.0,0.0,1.0,1.0,0.993,0.016,0.983,112,18.1,8.7,22.0,1.0
+Linear SVM,Iritza Khan,supervised,1.0,1.0,1.0,0.0,1.0,1.0,0.996,0.009,0.987,112,5.8,8.1,22.1,1.0
+Isolation forest (exported),Angelina Guasti,unsupervised,0.967,1.0,0.983,0.102,1.0,1.0,,,,13256,234.1,26.6,22.1,1.0
+Decision tree,Devon Biscardi,supervised,1.0,1.0,1.0,0.0,1.0,1.0,0.992,0.015,0.987,43,1.2,8.0,22.1,1.0

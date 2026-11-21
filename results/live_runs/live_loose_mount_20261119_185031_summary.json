@@ -1,0 +1,18 @@
+{
+  "condition": "loose_mount",
+  "expect": "fault",
+  "notes": "",
+  "started": "2026-11-19T18:50:31",
+  "seconds": 30.0,
+  "windows": 28,
+  "percent_flagged_fault": 0.0,
+  "percent_correct": 0.0,
+  "alerts": 0,
+  "mean_rpm": 1677.4,
+  "feature_ms_mean": 42.816,
+  "inference_us_mean": 17.96,
+  "inference_us_max": 18,
+  "median_score_live": -12.972,
+  "median_score_recorded_normal": -5.926,
+  "model_header": "fault_detector\\logreg_model.h"
+}

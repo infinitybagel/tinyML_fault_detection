@@ -1,0 +1,10 @@
+{
+  "model": "decision_tree",
+  "param_bytes": 43,
+  "inference_us": 1.2,
+  "feature_ms": 42.8,
+  "flash_kb": 8.0,
+  "ram_kb": 22.1,
+  "esp32_agreement": 1.0,
+  "source": "measured on the ESP32 on 2026-11-20 (esp32_test.py verify, 531 recorded windows; arduino-cli compile sizes); C export by models/export_decision_tree.py"
+}

@@ -1,0 +1,123 @@
+{
+  "model": "linear_svm",
+  "owner": "Iritza Khan",
+  "kind": "supervised",
+  "notes": "TODO: describe your final settings",
+  "evaluated": "2026-11-20T18:20:29",
+  "features": [
+    "rms",
+    "peak",
+    "std",
+    "kurtosis",
+    "crest_factor",
+    "band_5_25hz",
+    "band_25_75hz",
+    "band_75_200hz",
+    "band_200_500hz"
+  ],
+  "shared_split": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_alarm_rate": 0.0,
+    "roc_auc": 1.0,
+    "confusion": [
+      [
+        59,
+        0
+      ],
+      [
+        0,
+        177
+      ]
+    ],
+    "heldout_recall": 1.0,
+    "n_test_windows": 236,
+    "n_heldout_windows": 295
+  },
+  "chosen_params": {
+    "linearsvc__C": 1.0
+  },
+  "five_rounds": {
+    "accuracy": {
+      "mean": 0.9940928270042194,
+      "std": 0.013208840373416464
+    },
+    "precision": {
+      "mean": 0.9988372093023254,
+      "std": 0.0026000790436044112
+    },
+    "recall": {
+      "mean": 0.9932203389830508,
+      "std": 0.015159782898303668
+    },
+    "f1": {
+      "mean": 0.9959885386819485,
+      "std": 0.00896990019627421
+    },
+    "false_alarm_rate": {
+      "mean": 0.003333333333333333,
+      "std": 0.007453559924999298
+    },
+    "roc_auc": {
+      "mean": 0.9966666666666667,
+      "std": 0.007453559924999322
+    },
+    "heldout_recall": {
+      "mean": 1.0,
+      "std": 0.0
+    }
+  },
+  "multiclass": {
+    "macro_f1": 0.9872799137621272,
+    "accuracy": 0.9872881355932204,
+    "labels": [
+      "normal",
+      "imbalance",
+      "loose_mount",
+      "blocked_airflow"
+    ],
+    "confusion": [
+      [
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        59,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        56
+      ]
+    ],
+    "heldout_classified_as": {
+      "normal": 0.0,
+      "imbalance": 0.0,
+      "loose_mount": 0.7728813559322034,
+      "blocked_airflow": 0.2271186440677966
+    }
+  },
+  "device": {
+    "param_bytes": 112,
+    "inference_us": 5.8,
+    "feature_ms": 42.8,
+    "flash_kb": 8.1,
+    "ram_kb": 22.1,
+    "esp32_agreement": 1.0
+  },
+  "device_source": "measured on the ESP32 on 2026-11-20 (esp32_test.py verify, 531 recorded windows; arduino-cli compile sizes)"
+}

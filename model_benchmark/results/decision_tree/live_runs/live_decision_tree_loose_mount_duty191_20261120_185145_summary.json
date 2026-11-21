@@ -1,0 +1,11 @@
+{
+  "name": "decision_tree_loose_mount_duty191",
+  "expect": "fault",
+  "notes": "loose mount (corner untaped); fan duty 191/255",
+  "started": "2026-11-20T18:51:45",
+  "windows": 39,
+  "percent_flagged_fault": 100.0,
+  "percent_correct": 100.0,
+  "alerts": 1,
+  "inference_us_mean": 2.51
+}

@@ -1,0 +1,18 @@
+{
+  "condition": "normal",
+  "expect": "normal",
+  "notes": "after re-taping all corners",
+  "started": "2026-11-19T17:55:26",
+  "seconds": 30.0,
+  "windows": 29,
+  "percent_flagged_fault": 0.0,
+  "percent_correct": 100.0,
+  "alerts": 0,
+  "mean_rpm": 1694.0,
+  "feature_ms_mean": 42.816,
+  "inference_us_mean": 18.07,
+  "inference_us_max": 27,
+  "median_score_live": -12.98,
+  "median_score_recorded_normal": -5.926,
+  "model_header": "fault_detector\\logreg_model.h"
+}

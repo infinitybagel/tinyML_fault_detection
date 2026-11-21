@@ -1,0 +1,11 @@
+{
+  "name": "linear_svm_normal_duty191",
+  "expect": "normal",
+  "notes": "normal condition (rerun); fan duty 191/255",
+  "started": "2026-11-20T19:05:16",
+  "windows": 39,
+  "percent_flagged_fault": 0.0,
+  "percent_correct": 100.0,
+  "alerts": 0,
+  "inference_us_mean": 8.15
+}

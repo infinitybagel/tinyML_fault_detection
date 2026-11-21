@@ -1,0 +1,18 @@
+{
+  "condition": "loose_mount",
+  "expect": "fault",
+  "notes": "bottom left tape fixture removed",
+  "started": "2026-11-19T18:55:01",
+  "seconds": 30.0,
+  "windows": 29,
+  "percent_flagged_fault": 96.55,
+  "percent_correct": 96.55,
+  "alerts": 1,
+  "mean_rpm": 1684.9,
+  "feature_ms_mean": 42.817,
+  "inference_us_mean": 18.14,
+  "inference_us_max": 27,
+  "median_score_live": 2.7,
+  "median_score_recorded_normal": -5.926,
+  "model_header": "fault_detector\\logreg_model.h"
+}

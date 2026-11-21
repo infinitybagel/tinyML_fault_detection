@@ -1,0 +1,17 @@
+{
+  "label": "imbalance",
+  "started": "2026-11-19T15:58:53",
+  "samples": 59989,
+  "duration_s": 60.01,
+  "sample_rate_hz": 999.7,
+  "gaps_over_1_5ms": 9,
+  "bad_lines": 9,
+  "mean_fan_rpm": 1692,
+  "min_fan_rpm": 1620,
+  "max_fan_rpm": 1770,
+  "accel_range": "+/-8 g (4096 counts per g)",
+  "counts_per_g": 4096,
+  "clipped_values": 0,
+  "fan_duty": "204/255",
+  "notes": "recording 1 - using twist tie"
+}

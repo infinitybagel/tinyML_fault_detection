@@ -1,0 +1,2 @@
+model,precision,recall,f1,false_alarm_rate,roc_auc,heldout_recall,f1_cv_mean,heldout_recall_cv_mean,multiclass_macro_f1,param_bytes,inference_us_esp32,feature_ms_esp32
+Logistic regression,1.0,1.0,1.0,0.0,1.0,1.0,0.993,1.0,0.983,112,10-18,42.8
