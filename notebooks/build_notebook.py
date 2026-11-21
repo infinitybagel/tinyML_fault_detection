@@ -650,7 +650,7 @@ md(r"""
 - A loose corner that sat still produced no extra vibration and was never flagged; removing the tape fixture made it rattle and it was caught 28/29.
 - Faults added mid-run: no false alarms before, alert 3.1 s after the fault appeared every time (the minimum for 3 windows in a row). In the blocked-airflow run the card fluttered or touched the blades, so its vibration was stronger than the recordings.
 
-**Where everything is** (in `fan_fault_experiment/`): `data/` recordings · `firmware/` logger and detector sketches · `scripts/` recording, ESP32 test and figure scripts · `model/` exported header and results · `results/` ESP32 verification and live runs · `figures/` slide and paper figures · `paper/` IEEE draft · `photos/` setup photos · `model_benchmark/` the team's shared benchmark kit · `archive/` zipped copy of the data.
+**Where everything is** (in this repository): `data/` recordings · `firmware/` logger, detector and fan-tuner sketches · `scripts/` recording, ESP32 test and figure scripts · `notebooks/` this notebook and its builder · `model/` exported header and results · `results/` ESP32 verification and live runs · `figures/` slide and paper figures · `paper/` the final paper (PDF) · `model_benchmark/` the team's shared benchmark kit · `tools/` fan-speed tuning and test tools.
 """)
 
 

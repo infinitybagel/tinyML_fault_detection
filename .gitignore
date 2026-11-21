@@ -12,6 +12,6 @@ model_benchmark/results/features_cache.csv
 *.exe
 build/
 
-# Paper drafts and photos are kept outside the code repository
+# Word documents and photos are kept outside the code repository
 paper/*.docx
 paper/photos/

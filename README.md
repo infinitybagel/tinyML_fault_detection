@@ -6,6 +6,9 @@ models: **logistic regression, linear SVM, isolation forest and decision tree**.
 
 Florida Atlantic University, November 2026: Irtiza Khan, Aaron Arnold, Devon Biscardi, Angelina Guasti.
 
+**Paper:** [Which Model Catches the Fault? Comparing Machine Learning Models for TinyML Anomaly Detection in
+Predictive Maintenance of Power Equipment](paper/TinyML_Fan_Fault_Detection.pdf)
+
 ## Results at a glance
 
 | Model | F1 (shared test split) | False alarms | Unseen fault (blade rub) caught | Size on ESP32 | Inference |
@@ -40,7 +43,7 @@ results/              ESP32 verification (531 windows) and live runs for the log
 figures/              figures used in the slides and the paper
 model_benchmark/      the shared benchmark: same features, split and metrics for all four models,
                       one ESP32 sketch per model, results per model, comparison charts (own README)
-paper/                scripts that built the IEEE paper draft
+paper/                the paper: TinyML_Fan_Fault_Detection.pdf (IEEE format)
 tools/                fan-speed tuning, PC test harness for the C features, board simulator, checks
 ```
 
